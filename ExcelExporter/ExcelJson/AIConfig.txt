@@ -1,0 +1,4 @@
+{"AIConfigList":[{"_id":101,"AIConfigId":1,"Order":1,"Name":"AI_Attack","NodeParams":[]},
+{"_id":102,"AIConfigId":1,"Order":2,"Name":"AI_XunLuo","NodeParams":[]},
+],
+},

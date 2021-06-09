@@ -1,0 +1,40 @@
+@ECHO OFF
+
+goto start
+@REM _# 注释不导出
+@REM _s 字段只导出服务器
+@REM _c 字段只导出客户端
+@REM _b 字段只导出后台
+@REM _obj 导出为单个对象
+
+@REM 导出类型
+@REM SERVER: 服务器
+@REM CLIENT: 客户端
+@REM BACKSTAGE: 后台
+:start
+
+@SET EXPORT_TYPE=SERVER
+
+@REM Excel 路径
+@SET EXCEL_FOLDER=.\Excel
+
+@REM C#类模板路径
+@SET CLASS_TEMPLATE_PATH=.\Template
+
+@REM Json文件导出文件夹
+@SET EXPORT_JSON_FOLDER=.\ExcelJson
+
+@REM 配置文件导出文件夹
+@SET EXPORT_BYTES_FOLDER=.\ExcelBytes
+
+@REM C#类导出文件夹
+@SET EXPORT_CLASS_FOLDER=.\ExcelClass
+
+@REM EXCEL导出工具地址
+@SET EXE=.\Bin\ExcelExporter.exe
+
+@ECHO Start Export Excels ... ...
+
+@CALL %EXE% $EXCEL_FOLDER %EXCEL_FOLDER% $CLASS_TEMPLATE_PATH %CLASS_TEMPLATE_PATH% $EXPORT_BYTES_FOLDER %EXPORT_BYTES_FOLDER% $EXPORT_CLASS_FOLDER %EXPORT_CLASS_FOLDER% $EXPORT_JSON_FOLDER %EXPORT_JSON_FOLDER% $EXPORT_TYPE %EXPORT_TYPE% 
+
+pause

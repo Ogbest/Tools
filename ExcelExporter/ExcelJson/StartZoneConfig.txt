@@ -1,0 +1,6 @@
+{"StartZoneConfigList":[{"_id":1,"DBType":"MySql","DBConnection":"server=127.0.0.1;user id=root;password=123456;persistsecurityinfo=True;database=db_yhquyou;SslMode=none","DBName":"colder.admin.antdvue"},
+{"_id":2,"DBType":"MySql","DBConnection":"server=127.0.0.1;user id=root;password=123456;persistsecurityinfo=True;database=db_yhquyou;SslMode=none","DBName":"db_yhquyou"},
+{"_id":3,"DBType":"SqlServer","DBConnection":"Data Source=.;Initial Catalog=DB_QuYou;Integrated Security=True;Pooling=true;","DBName":"DB_QuYou"},
+{"_id":4,"DBType":"SqlServer","DBConnection":"Data Source=.;Initial Catalog=db_yhquyou;Integrated Security=True;Pooling=true;","DBName":"db_yhquyou"},
+],
+},

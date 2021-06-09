@@ -1,0 +1,10 @@
+		[ProtoContract]
+		public partial class (ConfigName): ProtoObject, IConfig
+		{
+(Fields)
+			[ProtoAfterDeserialization]
+			public void AfterDeserialization()
+			{
+				this.EndInit();
+			}
+		}

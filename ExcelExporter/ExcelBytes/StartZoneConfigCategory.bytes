@@ -1,0 +1,7 @@
+
+ˆMySqlgserver=127.0.0.1;user id=root;password=123456;persistsecurityinfo=True;database=db_yhquyou;SslMode=none"colder.admin.antdvue
+~MySqlgserver=127.0.0.1;user id=root;password=123456;persistsecurityinfo=True;database=db_yhquyou;SslMode=none"
+db_yhquyou
+f	SqlServerMData Source=.;Initial Catalog=DB_QuYou;Integrated Security=True;Pooling=true;"DB_QuYou
+j	SqlServerOData Source=.;Initial Catalog=db_yhquyou;Integrated Security=True;Pooling=true;"
+db_yhquyou
